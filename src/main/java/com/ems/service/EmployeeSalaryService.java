@@ -6,4 +6,6 @@ public interface EmployeeSalaryService {
 
 	EmployeeSalary addEmployeeSalary(EmployeeSalary employeeSalary);
 
+	EmployeeSalary getEmployeeSalary(Long id);
+
 }

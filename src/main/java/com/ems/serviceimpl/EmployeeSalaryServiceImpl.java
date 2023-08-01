@@ -18,4 +18,10 @@ public class EmployeeSalaryServiceImpl implements EmployeeSalaryService{
 		
 		return employeeSalarayRepository.save(employeeSalary);
 	}
+
+	@Override
+	public EmployeeSalary getEmployeeSalary(Long id) {
+		
+		return employeeSalarayRepository.getById(id);
+	}
 }
